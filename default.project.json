@@ -1,0 +1,27 @@
+{
+    "name": "VZNCore-ECS-Lite",
+    "tree": {
+        "$className": "DataModel",
+        "ReplicatedStorage": {
+            "$className": "ReplicatedStorage",
+            "Common": {
+                "$path": "src/RS/Common"
+            }
+        },
+        "ServerScriptService": {
+            "$className": "ServerScriptService",
+            "ServerBootstrap": {
+                "$path": "src/ServerBootstrap.server.luau"
+            }
+        },
+        "StarterPlayer": {
+            "$className": "StarterPlayer",
+            "StarterPlayerScripts": {
+                "$className": "StarterPlayerScripts",
+                "ClientBootstrap": {
+                    "$path": "src/ClientBootstrap.client.luau"
+                }
+            }
+        }
+    }
+}
